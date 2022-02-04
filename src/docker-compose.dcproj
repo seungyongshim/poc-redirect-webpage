@@ -6,7 +6,7 @@
     <ProjectGuid>007f9913-cdd3-4f51-a4bd-77fbe4edb360</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/weatherforecast</DockerServiceUrl>
-    <DockerServiceName>webapplication1</DockerServiceName>
+    <DockerServiceName>webapplication2</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
     <None Include="docker-compose.override.yml">

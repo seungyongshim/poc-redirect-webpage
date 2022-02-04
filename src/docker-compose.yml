@@ -1,14 +1,11 @@
 version: '3.4'
 
 services:
-  webapplication1:
-    image: ${DOCKER_REGISTRY-}webapplication1
+  smtp:
+    image: smtp2dev
     build:
       context: .
-      dockerfile: WebApplication1/Dockerfile
-
-  smtp:
-    image: rnwood/smtp4dev
+      dockerfile: smtp2dev-docker/Dockerfile
     ports:
       - 3000:80
 
